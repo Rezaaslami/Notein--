@@ -1,4 +1,5 @@
 # Notes App
+https://rezaaslami.github.io/Notein--/ 
 
 A simple and interactive web-based Notes App built using HTML, CSS, and JavaScript. This app allows users to create, edit, and delete notes, and it automatically saves all notes in the browser's localStorage — so your notes remain even after refreshing the page.
 
