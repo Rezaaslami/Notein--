@@ -51,3 +51,16 @@ function updateNotesStorage(){
 
 // By default it ca
 showNotes();
+
+const toggleBtn = document.getElementById("themeToggle");
+const body = document.body;
+
+toggleBtn.addEventListener("click", () => {
+  body.classList.toggle("dark-mode");
+
+  if (body.classList.contains("dark-mode")) {
+    toggleBtn.src = "sun.png"; // تغییر به خورشید
+  } else {
+    toggleBtn.src = "moon.png"; // تغییر به ماه
+  }
+});
